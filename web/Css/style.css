@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-Nov-2015, 09:26:35
+    Author     : admin
+*/
+body
+{
+    margin: 0px;
+    font-family:  helvetica,"Arial" !important;
+}
+#darkscreen
+{
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 10;
+}
+#prvdetails-popup_div
+{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:400px;
+    height:300px;
+    display:none;
+    nbackground-color: yellow;
+    z-index: 11;
+}
+#header
+{
+    nposition: fixed;
+    width: 100%;
+    nz-index: 10;
+    
+}
+#allwrapper
+{
+    top: 60px;    
+    position: relative;
+    max-width: 1300px;    
+    margin-left: auto;
+    margin-right: auto;
+    nbackground-color: blue;
+}
+.mainlinks-hover > li > a
+{
+    color: orange !important;    
+}
+.mainlinks-hover > li > a:hover
+{
+    color: white !important;    
+}
+
+#resq-navbar-search button:hover
+{
+    background-color: orange !important;
+}
+#googlemaps_providerlocation
+{
+    height: 400px;
+    width: 1000px;
+    top:80px;
+    nbackground-color: yellow;
+    position: relative;
+    display: none;
+    
+}
+.titleprf
+{
+    font-style: italic;
+    font-weight: bold;
+    
+    
+}
+.prfsearchoption_div, .srvsearchoption_div
+{
+    background-color: grey;
+    border-radius: 10px;
+    color: orange;
+    position:relative;
+    width:400px;
+    ntop:300px;
+    z-index: 2;
+    display: none;
+    
+}
+.srvnearbylist_div
+{
+    nbackground-color: blue;
+}
+#srvnearbytitle_span,#srvnearbymap_span
+{
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+}
+.srvmap_div
+{
+    nbackground-color: yellow;
+}
+#srvmaprender_div
+{
+    min-height:700px;
+    min-width:300px;
+    nbackground-color: orange;
+    
+}
+.orangify
+{
+    color: orange;
+}
+.panel-okoa
+{
+    background-color: black;
+}
+#prvdetails-popupclose_link
+{
+    
+    float:right;
+    color:black;
+}
+#searchresults_div
+{
+    position: fixed;
+    max-height:700px;
+    width:500px;
+    top: 49px;
+    background-color: white;    
+    left:30%;
+    z-index: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-style:  solid;
+    border-width:  thin;
+    border-color: darkgray;
+    border-radius: 5px;
+    display: none;
+    vopacity: 0.9;
+}
+#innersearchresults_div
+{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    ntop:10px;
+    width:95%;
+    height:auto; 
+    
+    
+}
+#searchresults_div .row:hover
+{
+    background-color: #cccccc;
+}
+#searchresults_servicetype_span
+{
+    font-weight: bold;  
+    
+    
+}
+.srctextcontainer
+{     
+    line-height: 50px;
+}
+.vcenter {
+    padding-top: auto;
+    padding-bottom: auto;  
+}
+.srvcord_styler
+{
+    font-size:  large;
+}
